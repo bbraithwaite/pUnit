@@ -74,15 +74,17 @@ Public Class ForEachBenchmarks
 
 End Class
 
-* 4. Running the Benchmarks
 
-* 5. Add a new Console application to your solution. I usually call this ProfilerRunner but this is not mandatory.
+ RUNNING THE BENCHMARKS
 
-* 6. Add a reference to pUnit either from the binary or via NuGet as we did previously.
 
-* 7. Add a reference to your benchmark project(s).
+* 1. Add a new Console application to your solution. I usually call this ProfilerRunner but this is not mandatory.
 
-* 8. Paste in the below Main method of the console application. This calls the profile runner which will scan the referenced assemblies and execute the required methods by reading the attributes associated with pUnit  aspreviously described.
+* 2. Add a reference to pUnit either from the binary or via NuGet as we did previously.
+
+* 3. Add a reference to your benchmark project(s).
+
+* 4. Paste in the below Main method of the console application. This calls the profile runner which will scan the referenced assemblies and execute the required methods by reading the attributes associated with pUnit  aspreviously described.
 
 *** C# Example ***
 
@@ -103,3 +105,7 @@ End Class
 		runner.Run()
 	End Sub
 End Class
+
+VIEWING RESULTS
+
+Run the console application and the execution time in ms will be output to the console window.

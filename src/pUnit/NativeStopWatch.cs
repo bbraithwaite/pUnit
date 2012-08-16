@@ -1,25 +1,25 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 
 namespace pUnit
 {
     public class NativeStopWatch : IStopWatch
     {
-        private Stopwatch stopWatch;
+        private Stopwatch _stopWatch;
 
         public void Stop()
         {
-            this.stopWatch.Stop();
+            this._stopWatch.Stop();
         }
 
         public long ElapsedMilliseconds
         {
-            get { return stopWatch.ElapsedMilliseconds; }
+            get { return _stopWatch.ElapsedMilliseconds; }
         }
 
         IStopWatch IStopWatch.StartNew()
         {
-            this.stopWatch = Stopwatch.StartNew();
+            this._stopWatch = Stopwatch.StartNew();
             return this;
         }
     }

@@ -75,7 +75,7 @@ Public Class ForEachBenchmarks
 End Class
 
 
- RUNNING THE BENCHMARKS
+RUNNING THE BENCHMARKS
 
 
 * 1. Add a new Console application to your solution. I usually call this ProfilerRunner but this is not mandatory.

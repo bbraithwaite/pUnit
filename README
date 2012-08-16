@@ -4,6 +4,10 @@ For me information please see the following link:
 
 http://www.ideplorable.com/2012/02/benchmarking-methods-in-c-made-easier.html
 
+
+INSTRUCTIONS
+
+
 * 1. Create a new class library, typically I use the naming convention of <MyProject>.Benchmarks however, this is not mandatory.
 
 * 2. Download the package from NuGet or add a reference of pUnit.dll to the benchmarks project. NuGet package name is: pUnit

@@ -42,6 +42,7 @@ namespace pUnit
                 CheckAndProfileAssemblyMethods(file);
             }
 
+            _console.WriteLine("Done.");
             _console.ReadLine();
         }
 

@@ -2,7 +2,7 @@ A simple framework for comparing the performance and running bench marks of meth
 
 For me information please see the following link:
 
-http://www.contentedcoder.com/2012/02/benchmarking-methods-in-c-made-easier.html
+http://bradoncode.com/2012/02/benchmarking-methods-in-c-made-easier.html
 
 
 ##INSTRUCTIONS
